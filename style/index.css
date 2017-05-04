@@ -1,0 +1,24 @@
+body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td,font,form,p,h1,h2,h3,h4,h5,h6,span,a{padding:0px; margin:0px;}
+input,select{font-size:12px;line-height:16px;}
+html,body{ -webkit-text-size-adjust:none; font-size:12px; color:#4e4e4e}/*google浏览器字体兼容*/
+img{border:0;}
+ul,li{list-style-type:none;}
+a{text-decoration:none; color:#4e4e4e;outline: none;}
+a:hover{ color:#007b3f; text-decoration:none}
+a:active {star:expression(this.onFocus=this.blur());}
+.wrap {WIDTH: 980px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto}
+EM {FONT-STYLE: normal; FONT-SIZE: 100%}
+.patient_nav .cont {DISPLAY: none}
+DIV.none {DISPLAY: none}.display{ display:block}
+
+.pinyin{ height:145px; overflow:hidden}
+.pinyin_c{ padding:10px;}
+.pinyin_c_t{ width:956px;position: relative;overflow:hidden}
+.pinyin_c_t li{ float:left;}
+.pinyin_c_t li a{ color:#e60012; margin:0px 3px; width:29px; height:44px; line-height:44px; color:#e60012; font-size:16px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; display:block;background:url(../image/index_213.jpg) no-repeat center;}
+.pinyin_c_t li a:hover{ background:url(../image/index_113.jpg) no-repeat top; display:block; width:29px; height:44px; line-height:35px;}
+.pinyin_c_t li a.hover{ background:url(../image/index_113.jpg) no-repeat top; display:block; width:29px; height:44px; line-height:35px;}
+.pinyin_c_b{ width:956px;position:relative;background:url(../image/index_116.jpg) no-repeat; height:39px; overflow: hidden; margin-top:-2px; text-align:center; padding-top:10px;}
+.pinyin_c_b a{ color:#20794d; line-height:39px; background:url(../image/dot_14.jpg) no-repeat left;padding-left:10px; margin-left:10px; font-size:14px;}
+.pinyin_c_b a:hover{ color:#e60012;}
+

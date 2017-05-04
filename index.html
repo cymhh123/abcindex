@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jquery实现26个英文字母索引选项卡特效</title>
+<link href="style/index.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+
+<div class="pinyin border" style="margin:50px auto; width:970px;">
+  <div class="pinyin_c">
+    <div class="pinyin_c_t">
+      <ul>
+        <li><a href="http://www.jq-school.com" class="hover" onMouseOver="set('pinyin',1,26)" id="pinyin1">A</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',2,26)" id="pinyin2">B</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',3,26)" id="pinyin3">C</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',4,26)" id="pinyin4">D</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',5,26)" id="pinyin5">E</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',6,26)" id="pinyin6">F</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',7,26)" id="pinyin7">G</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',8,26)" id="pinyin8">H</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',9,26)" id="pinyin9">I</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',10,26)" id="pinyin10">J</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',11,26)" id="pinyin11">K</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',12,26)" id="pinyin12">L</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',13,26)" id="pinyin13">M</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',14,26)" id="pinyin14">N</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',15,26)" id="pinyin15">O</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',16,26)" id="pinyin16">P</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',17,26)" id="pinyin17">Q</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',18,26)" id="pinyin18">R</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',19,26)" id="pinyin19">S</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',20,26)" id="pinyin20">T</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',21,26)" id="pinyin21">U</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',22,26)" id="pinyin22">V</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',23,26)" id="pinyin23">W</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',24,26)" id="pinyin24">X</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',25,26)" id="pinyin25">Y</a></li>
+        <li><a href="http://www.jq-school.com" onMouseOver="set('pinyin',26,26)" id="pinyin26">Z</a></li>
+      </ul>
+    </div>
+    <div class="pinyin_c_b">
+      <div id="conpinyin1">多久了撒附近啊酸辣粉</div>
+      <div id="conpinyin2" class="none">哦哦哦的发发</div>
+      <div id="conpinyin3" class="none">C</div>
+      <div id="conpinyin4" class="none">D</div>
+      <div id="conpinyin5" class="none">E</div>
+      <div id="conpinyin6" class="none">F</div>
+      <div id="conpinyin7" class="none">G</div>
+      <div id="conpinyin8" class="none">H</div>
+      <div id="conpinyin9" class="none">I</div>
+      <div id="conpinyin10" class="none">J</div>
+      <div id="conpinyin11" class="none">K</div>
+      <div id="conpinyin12" class="none">L</div>
+      <div id="conpinyin13" class="none">M</div>
+      <div id="conpinyin14" class="none">N</div>
+      <div id="conpinyin15" class="none">O</div>
+      <div id="conpinyin16" class="none">P</div>
+      <div id="conpinyin17" class="none">Q</div>
+      <div id="conpinyin18" class="none">R</div>
+      <div id="conpinyin19" class="none">S</div>
+      <div id="conpinyin20" class="none">T</div>
+      <div id="conpinyin21" class="none">U</div>
+      <div id="conpinyin22" class="none">V</div>
+      <div id="conpinyin23" class="none">W</div>
+      <div id="conpinyin24" class="none">X</div>
+      <div id="conpinyin25" class="none">Y</div>
+      <div id="conpinyin26" class="none">Z</div>
+    </div>
+    <div class="cl"></div>
+  </div>
+  <div class="cl"></div>
+</div>
+</body>
+</html>
